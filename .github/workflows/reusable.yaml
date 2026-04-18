@@ -6,7 +6,7 @@ on:
         required: false
         type: string
         default: "17"
-      maven-command:
+      mvn-command:
         required: false
         type: string
         default: "mvn clean package"
@@ -31,4 +31,3 @@ jobs:
       with:
         name: artifact
         path: target/*.jar
-  
